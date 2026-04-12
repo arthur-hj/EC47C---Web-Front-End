@@ -1,0 +1,83 @@
+
+body{
+    background-color: #F2DCC2;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1{
+    background-color: #594432;
+    color: #F2E5D5;
+    font-family: "Roboto", sans-serif;
+}
+
+h2{
+    background-color: #594432;
+    color: #F2E5D5;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.listacontato{
+    display: flex;
+    align-items: center;
+    gap: 6px;;
+}
+
+.listacontato .material-icons-outlined{
+    line-height: 1;
+    font-size: 18px;
+}
+
+ul, p, a, ol, dl{
+    font-family: sans-serif;
+}
+
+#resumo p{
+    margin-left: 20px;
+}
+
+#ods {
+    text-align: center;
+}
+
+#ods p{
+    font-weight: bold;
+}
+
+#educacao dl {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#educacao dt{
+    text-decoration: underline;
+}
+
+a{
+    color:rgb(37, 0, 138);
+    font-style: italic;
+}
+
+a[href="https://github.com/arthur-hj"]{
+    color: rgb(89, 0, 131);
+}
+
+a:hover{
+    color: orangered;
+}
+
+footer{
+    background-color: #594432;
+    color: #F2E5D5;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
